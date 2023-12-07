@@ -1,7 +1,13 @@
 //your JS code here. If required.
-let count = 0 ;
-function increment(){
-	alert(count);
-	count++;
-	document.getElementById("count").innerText =count ;
-}
+let counterValue = 0;
+
+    function incrementCounter() {
+    
+      alert("Un-incremented value: " + counterValue);
+
+      counterValue++;
+
+      // Update the content of the counter element
+      document.getElementById("counter").innerText = counterValue;
+    }
+
